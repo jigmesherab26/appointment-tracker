@@ -36,10 +36,13 @@ button {
     border-radius: 5px;
     padding: 10px;
     background-color: #395439;
-    color: lightgray;
+    color: darkgray;
     font-weight: bold;
     cursor: pointer;
     border: none;
+}
+button:hover {
+    color: white;
 }
 
 ul {
