@@ -3,19 +3,20 @@ body {
     font-family: cursive;
     display: flex;
     justify-content: center;
+    background-color: #171515;
 }
 
 h1 {
     text-align: center;
     margin-bottom: 30px;
-    color: green;
+    color: white;
     font-style: italic;
 }
 .container {
     border-radius: 20px;
-    background-color: whitesmoke;
-    width: 300px;
-    box-shadow: 0 2px 5px lightgray;
+    background-color: #292626;
+    width: 500px;
+    /* box-shadow: 0 1px 8px darkgray; */
 }
 
 .input-group {
@@ -34,11 +35,18 @@ input {
 button {
     border-radius: 5px;
     padding: 10px;
-    background-color: green;
-    color: whitesmoke;
+    background-color: #395439;
+    color: darkgray;
     font-weight: bold;
     cursor: pointer;
     border: none;
+}
+button:hover {
+    color: white;
+}
+
+div {
+    font-family: 'Courier New', Courier, monospace;
 }
 
 ul {
@@ -52,13 +60,13 @@ label {
 
 li {
     border-radius: 10px;
-    background-color: #fafafa;
-    box-shadow: 0 1px 3px lightgray;
+    background-color: #292626;
+    box-shadow: 0 0 3px gray;
     padding: 5px;
     margin: 10px
 }
 .delete-btn {
-    background-color: darkred;
+    background-color: #78243D;
     padding:5px
 }
 
@@ -66,6 +74,7 @@ li {
     display: flex;
     justify-content: space-between;
     padding: 5px;
+    color : gray;
 }
 
 .details {
