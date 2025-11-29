@@ -46,6 +46,10 @@ ul {
     padding: 0;
 }
 
+label {
+    color: whitesmoke;
+}
+
 li {
     border-radius: 10px;
     background-color: #fafafa;
